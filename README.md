@@ -40,6 +40,7 @@ This Java console application automates order processing for **DELI-cious**, a c
 ## 🧠 Challenges & Solutions
 ## 1. 🧾 Naming Toppings Clearly
 Challenge: Needed to show when a topping is marked as “extra.”
+
 Solution: Used getName() method to return the name with “(extra)” added automatically.
 
 ## 2. 🧮 Different Prices for Different Sizes
