@@ -57,6 +57,36 @@ This allows easy expansion—new toppings can be added without changing existing
 ### 🔹 4. Simple Main Program for Testing
 The main() method is used to test and display different toppings, their names, and prices based on size and extra flag.
 
+            +----------------------+
+            |     <<abstract>>     |
+            |       Topping        |
+            +----------------------+
+            | - name: String       |
+            | - isExtra: boolean   |
+            +----------------------+
+            | + getName(): String  |
+            | + getPrice(sandwichSize: String): double |
+            +----------------------+
+                     ▲
+         ┌───────────┼────────────┐
+         │           │            │
++----------------+ +----------------+ +-----------------+
+| CheeseTopping  | | BaconTopping   | | VeggieTopping   |   <- examples
++----------------+ +----------------+ +-----------------+
+| (inherits from Topping)            |
+| + getPrice(sandwichSize: String)  |
++-----------------------------------+
+
+               +----------------------+
+               |        Drink         |
+               +----------------------+
+               | - size: String       |
+               | - flavor: String     |
+               +----------------------+
+               | + getPrice(): double |
+               | + getDescription(): String |
+               +----------------------+
+
 
 ## 🧠 Challenges & Solutions
 ## 1. 🧾 Naming Toppings Clearly
