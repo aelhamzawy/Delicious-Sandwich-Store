@@ -36,6 +36,27 @@ This Java console application automates order processing for **DELI-cious**, a c
 2. Compile all Java files:  
    ```bash
    javac *.java
+# 🏗️ Project Structure Overview
+##"I followed an Object-Oriented Programming (OOP) structure to keep the code clean, organized, and easy to extend."
+
+###🔹 1. Abstract Class for Shared Behavior
+I created an abstract class Topping to store shared data like the topping name and whether it's extra.
+
+It also contains a getName() method and an abstract getPrice() method that every topping class must implement.
+
+###🔹 2. One Class per Topping Type
+Each topping (like cheese, bacon, tomato) is a separate class that extends Topping.
+
+These classes implement the price logic based on sandwich size and extra status.
+
+###🔹 3. Polymorphism for Flexibility
+All toppings are treated as the general Topping type in code, but each one behaves differently thanks to method overriding (getPrice()).
+
+This allows easy expansion—new toppings can be added without changing existing logic.
+
+### 🔹 4. Simple Main Program for Testing
+The main() method is used to test and display different toppings, their names, and prices based on size and extra flag.
+
 
 ## 🧠 Challenges & Solutions
 ## 1. 🧾 Naming Toppings Clearly
