@@ -1,4 +1,4 @@
-# 🥪 DELI-cious Sandwich Shop POS Application
+# 🥪 DELI-cious Sandwich Shop Application
 
 ---
 
