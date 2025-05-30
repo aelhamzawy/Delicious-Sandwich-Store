@@ -37,7 +37,7 @@ This Java console application automates order processing for **DELI-cious**, a c
    ```bash
    javac *.java
 # 🏗️ Project Structure Overview
-## "I followed an Object-Oriented Programming (OOP) structure to keep the code clean, organized, and easy to extend."
+###  "I followed an Object-Oriented Programming (OOP) structure to keep the code clean, organized, and easy to extend."
 
 ### 🔹 1. Abstract Class for Shared Behavior
 I created an abstract class Topping to store shared data like the topping name and whether it's extra.
